@@ -1,0 +1,89 @@
+html, body {
+  background-color: #F1F1F1;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.8
+}
+
+a:active {
+  opacity: 0.9
+}
+
+.diagonal {
+  background-image: linear-gradient(180deg, #222222, #444444);
+  transform: rotate(-45deg);
+  height: 50vmax;
+  width: 150vmax;
+  margin-left: -85%;
+  position: relative;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-left: 64%;
+  margin-top: 24%;
+  width: 10vmax;
+  height: 10vmax;
+}
+
+.content {
+  background-image: url("images/profile.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120% 100%;
+  border-radius: 50%;
+  width: 45%;
+  height: 45%;
+  border: 1px solid #707070;
+}
+
+.greet {
+  background-color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3vmin;
+  color: #F1F1F1;
+  margin-top: 100%;
+  width: 110%;
+}
+
+.description {
+  width: auto;
+  height: auto;
+  font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 2vmax;
+  color: #707070;
+  text-shadow: 0px 2px rgba(0, 0, 0, .16);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 47%;
+  margin-top: -34%
+}
+
+.icons {
+  width:auto;
+  float: right;
+  margin-top: -25.5%;
+  padding-right: 2%;
+}
+
